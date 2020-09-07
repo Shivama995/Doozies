@@ -1,0 +1,164 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav1 {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    background-color: #f8002f;
+    z-index: 10;
+}
+
+#nav1>div {
+    width: 34%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+}
+
+#naviconb1 {
+    font-family: happy;
+}
+
+#naviconb1>div {
+    height: 80px;
+    width: 200px;
+    margin: 25px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 2em;
+}
+
+#head1 {
+    font-size: 7em;
+    font-family: happy;
+    position: relative;
+    text-align: center;
+}
+
+#naviconb2 {
+    font-family: happy;
+}
+
+#naviconb2>div {
+    height: 80px;
+    width: 200px;
+    margin: 25px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 2em;
+}
+
+#badge {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 48%;
+    visibility: hidden;
+}
+
+@media screen and (max-width:1000px) {
+    #head1 {
+        font-size: 5em;
+    }
+    #nav1>div {
+        height: 100px;
+    }
+    #naviconb1>div {
+        margin: 20px;
+        height: 60px;
+        width: 160px;
+        line-height: 60px;
+        font-size: 1.7em;
+    }
+    #naviconb2>div {
+        margin: 20px;
+        height: 60px;
+        width: 160px;
+        line-height: 60px;
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #head1 {
+        font-size: 4em;
+    }
+    #nav1>div {
+        height: 80px;
+    }
+    #naviconb1>div {
+        margin: 15px;
+        height: 50px;
+        width: 150px;
+        line-height: 50px;
+    }
+    #naviconb2>div {
+        margin: 15px;
+        height: 50px;
+        width: 150px;
+        line-height: 50px;
+    }
+    #badge {
+        height: 8px;
+        width: 8px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #head1 {
+        font-size: 3em;
+    }
+    #nav1>div {
+        height: 70px;
+    }
+    #naviconb1>div {
+        margin: 15px;
+        height: 40px;
+        width: 130px;
+        line-height: 40px;
+        font-size: 1.4em;
+    }
+    #naviconb2>div {
+        margin: 15px;
+        height: 40px;
+        width: 130px;
+        line-height: 40px;
+        font-size: 1.4em;
+    }
+    #badge {
+        height: 5px;
+        width: 5px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #head1 {
+        font-size: 2em;
+    }
+    #nav1>div {
+        height: 40px;
+    }
+    #naviconb1>div {
+        margin: 5px;
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        font-size: 0.8em;
+    }
+    #naviconb2>div {
+        margin: 5px;
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        font-size: 0.8em;
+    }
+    #badge {
+        height: 4px;
+        width: 4px;
+    }
+}

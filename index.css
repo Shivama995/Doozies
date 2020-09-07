@@ -1,0 +1,396 @@
+body {
+    margin: 0px;
+}
+
+@font-face {
+    src: url(fonts/Happy-Camper-Regular.ttf);
+    font-family: happy;
+}
+
+#artbody1 {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+#mainbody1 {
+    margin-top: 135px;
+    height: 2000px;
+    width: 100%;
+}
+
+#slideshow1 {
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    width: 400%;
+    height: 500px;
+    display: flex;
+}
+
+#slideshow1>div {
+    width: 25%;
+    text-align: center;
+    background-color: white;
+}
+
+#im1>img {
+    height: 500px;
+    width: 80%;
+}
+
+#im2>img {
+    height: 500px;
+    width: 80%;
+}
+
+#im3>img {
+    height: 500px;
+    width: 80%;
+}
+
+#order {
+    position: relative;
+    top: 200px;
+    font-size: 3em;
+    font-family: 'Balsamiq Sans', cursive;
+    width: 80%;
+    left: 10%;
+    height: 50px;
+}
+
+#menu {
+    width: 80%;
+    position: relative;
+    top: 250px;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+#menu>div {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#item1>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#item1>div {
+    height: 100px;
+    width: 50%;
+    margin-left: 50px;
+    font-family: happy;
+    font-size: 2em;
+}
+
+#item1>div>p {
+    font-size: 0.7em;
+}
+
+#item1>button {
+    height: 30px;
+    margin-top: 35px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+
+#item2>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#item2>div {
+    height: 100px;
+    width: 50%;
+    margin-left: 50px;
+    font-family: happy;
+    font-size: 2em;
+}
+
+#item2>div>p {
+    font-size: 0.7em;
+}
+
+#item2>button {
+    height: 30px;
+    margin-top: 35px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+
+#item3>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#item3>div {
+    height: 100px;
+    width: 50%;
+    margin-left: 50px;
+    font-family: happy;
+    font-size: 2em;
+}
+
+#item3>div>p {
+    font-size: 0.7em;
+}
+
+#item3>button {
+    height: 30px;
+    margin-top: 35px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1000px) {
+    #head1 {
+        font-size: 5em;
+    }
+    #nav1>div {
+        height: 100px;
+    }
+    #naviconb1>div {
+        margin: 20px;
+        height: 60px;
+        width: 160px;
+        line-height: 60px;
+        font-size: 1.7em;
+    }
+    #naviconb2>div {
+        margin: 20px;
+        height: 60px;
+        width: 160px;
+        line-height: 60px;
+        font-size: 1.7em;
+    }
+    #mainbody1 {
+        margin-top: 100px;
+    }
+    #slideshow1 {
+        height: 350px;
+    }
+    #im1>img {
+        width: 80%;
+        height: 350px;
+    }
+    #im2>img {
+        width: 80%;
+        height: 350px;
+    }
+    #im3>img {
+        width: 80%;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #head1 {
+        font-size: 4em;
+    }
+    #nav1>div {
+        height: 80px;
+    }
+    #naviconb1>div {
+        margin: 15px;
+        height: 50px;
+        width: 150px;
+        line-height: 50px;
+    }
+    #naviconb2>div {
+        margin: 15px;
+        height: 50px;
+        width: 150px;
+        line-height: 50px;
+    }
+    #badge {
+        height: 8px;
+        width: 8px;
+    }
+    #mainbody1 {
+        margin-top: 80px;
+    }
+    #order {
+        font-size: 2.5em;
+        top: 150px;
+    }
+    #item1>div {
+        font-size: 1.5em;
+        margin-left: 20px;
+    }
+    #item2>div {
+        font-size: 1.5em;
+        margin-left: 20px;
+    }
+    #item3>div {
+        font-size: 1.5em;
+        margin-left: 20px;
+    }
+    #menu {
+        top: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #head1 {
+        font-size: 3em;
+    }
+    #nav1>div {
+        height: 70px;
+    }
+    #naviconb1>div {
+        margin: 15px;
+        height: 40px;
+        width: 130px;
+        line-height: 40px;
+        font-size: 1.4em;
+    }
+    #naviconb2>div {
+        margin: 15px;
+        height: 40px;
+        width: 130px;
+        line-height: 40px;
+        font-size: 1.4em;
+    }
+    #badge {
+        height: 5px;
+        width: 5px;
+    }
+    #mainbody1 {
+        margin-top: 70px;
+    }
+    #slideshow1 {
+        height: 300px;
+    }
+    #im1>img {
+        width: 100%;
+        height: 300px;
+    }
+    #im2>img {
+        width: 100%;
+        height: 300px;
+    }
+    #im3>img {
+        width: 100%;
+        height: 300px;
+    }
+    #item1>div {
+        font-size: 1.2em;
+    }
+    #item2>div {
+        font-size: 1.2em;
+    }
+    #item3>div {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #head1 {
+        font-size: 2em;
+    }
+    #nav1>div {
+        height: 40px;
+    }
+    #naviconb1>div {
+        margin: 5px;
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        font-size: 0.8em;
+    }
+    #naviconb2>div {
+        margin: 5px;
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        font-size: 0.8em;
+    }
+    #badge {
+        height: 4px;
+        width: 4px;
+    }
+    #mainbody1 {
+        margin-top: 40px;
+    }
+    #slideshow1 {
+        height: 250px;
+    }
+    #im1>img {
+        width: 100%;
+        height: 250px;
+    }
+    #im2>img {
+        width: 100%;
+        height: 250px;
+    }
+    #im3>img {
+        width: 100%;
+        height: 250px;
+    }
+    #order {
+        top: 150px;
+        font-size: 1.5em;
+    }
+    #menu {
+        top: 175px;
+    }
+    #menu>div {
+        height: 70px;
+    }
+    #item1>img {
+        height: 70px;
+        width: 70px;
+    }
+    #item1>div {
+        width: 70%;
+        height: 70px;
+        font-size: 1em;
+    }
+    #item1>button {
+        height: 20px;
+        margin-top: 25px;
+    }
+    #item2>img {
+        height: 70px;
+        width: 70px;
+    }
+    #item2>div {
+        width: 70%;
+        height: 70px;
+        font-size: 1em;
+    }
+    #item2>button {
+        height: 20px;
+        margin-top: 25px;
+    }
+    #item3>img {
+        height: 70px;
+        width: 70px;
+    }
+    #item3>div {
+        width: 70%;
+        height: 70px;
+        font-size: 1em;
+    }
+    #item3>button {
+        height: 20px;
+        margin-top: 25px;
+    }
+}
